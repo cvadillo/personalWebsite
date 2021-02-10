@@ -137,6 +137,13 @@ h3 {
   padding-top: 10px;
 }
 
+.resume ul li p{
+  margin: 0 !important;
+  color: white !important;
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
 /*Section*/
 section {
   padding: 60px 0;
