@@ -1,6 +1,7 @@
 /*BODY*/
 body {
   background-color: black;
+  color: white;
 }
 
 h2 {
@@ -13,6 +14,11 @@ p {
 
 h3 {
   color: white;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*ABOUT*/
@@ -130,6 +136,7 @@ h3 {
   text-align: center;
 }
 
+
 .resume img {
   display: block;
   max-width: 100px;
@@ -138,10 +145,21 @@ h3 {
 }
 
 .resume ul li p{
-  margin: 0 !important;
-  color: white !important;
-  text-decoration: none !important;
+  border-bottom: 1px solid white;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.resume ul {
   list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.resume li:last-child {
+    padding-bottom: 10px;
 }
 
 /*Section*/
