@@ -72,6 +72,7 @@ div {
   color: white;
   letter-spacing: .5em;
   padding-bottom: 40px;
+  margin-top: 50px;
 }
 
 .header-secondary {
@@ -332,8 +333,40 @@ section {
 
 
 /* Portfolio */
-.portfolio img:hover {
+.projectPicture img, .twocolpic img {
+    margin-bottom: 40px;
+    opacity: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%)
+}
+
+.projectPicture img {
+    max-width: 350px;
+}
+
+.twocolpic img {
+    max-width: 525px;
+}
+
+.projects h2 {
+    margin-bottom: 50px;
+}
+
+.projects h4 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.projects p {
+    margin: ;
+}
+
+.projectPicture img:hover, .twocolpic img:hover {
   transform: scale(1.03);
+  opacity: 100%;
+  filter: grayscale(0%)
 }
 
 /* Contact */
@@ -364,4 +397,34 @@ section {
     color: black;
     border-radius: 0;
     border: 1px solid white;
+}
+
+
+/*FOOTER*/
+footer {
+    background-image: url(../img/hero-background2.jpg);
+    background-size: cover;
+}
+
+footer h6 a {
+    color: #c1c1c1;
+}
+
+footer h6 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* .header-primary {
+  font-size: 2em;
+  display: block;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .5em;
+  padding-bottom: 40px;
+  margin-top: 50px;
 }
