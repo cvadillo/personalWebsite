@@ -197,7 +197,6 @@ div {
 }
 
 /* Resume Section */
-
 .resume h4 {
   color: #fff;
   text-align: center;
@@ -334,7 +333,6 @@ section {
 
 /* Portfolio */
 .projectPicture img, .twocolpic img {
-    margin-bottom: 40px;
     opacity: 70%;
     display: block;
     margin-left: auto;
@@ -344,6 +342,7 @@ section {
 
 .projectPicture img {
     max-width: 350px;
+    margin-bottom: 40px;
 }
 
 .twocolpic img {
@@ -368,6 +367,10 @@ section {
   opacity: 100%;
   filter: grayscale(0%)
 }
+
+
+/*Arrow*/
+
 
 /* Contact */
 .form-control {
