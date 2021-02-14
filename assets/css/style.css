@@ -358,7 +358,7 @@ section {
 
 .projects h4 {
     font-size: 1.2em;
-    margin: 0;
+    margin-top: 20px;
 }
 
 .projects p {
@@ -460,12 +460,76 @@ footer h6 a:hover {
 
 /* MEDIA QUERIES */
 
-/* .header-primary {
-  font-size: 2em;
-  display: block;
-  font-weight: 700;
+@media screen and (max-width: 980px) {
+  .col {
+    width: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-4 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .projects .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .projects .col-4:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .projects .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0px;
+  }
+}
+
+  .header-primary {
+    font-size: 2em;
+    display: block;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .1em;
+    padding-bottom: 40px;
+    margin-top: 50px;
+  }
+
+  .header-secondary {
+  font-size: .6em;
   color: white;
-  letter-spacing: .5em;
-  padding-bottom: 40px;
-  margin-top: 50px;
+  letter-spacing: .25em;
 }
