@@ -413,7 +413,7 @@ section {
 
 /*FOOTER*/
 footer {
-    background-image: url(../img/hero-background2.jpg);
+    background-image: url(../img/footer.jpeg);
     background-size: cover;
 }
 
@@ -460,6 +460,19 @@ footer h6 a:hover {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .projectPicture img {
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .twocolpic img {
+    max-width: 460px;
+}
+
+
+}
+
 
 @media screen and (max-width: 980px) {
   .col {
@@ -515,7 +528,8 @@ footer h6 a:hover {
   .col-6 {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
